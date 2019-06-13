@@ -1,0 +1,111 @@
+Listening on port 4500
+[0mGET / [32m200 [0m289.757 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m5.962 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m32.966 ms - 1122[0m
+Listening on port 4500
+[0mGET /dfg [33m404 [0m454.015 ms - 1294[0m
+Error: Failed to lookup view "error" in views directory "/var/www/html/basicAuth/server/views"
+    at Function.render (/var/www/html/basicAuth/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/var/www/html/basicAuth/server/node_modules/express/lib/response.js:1008:7)
+    at /var/www/html/basicAuth/server/app.js:38:7
+    at Layer.handle_error (/var/www/html/basicAuth/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:315:13)
+    at /var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:275:10)
+    at /var/www/html/basicAuth/server/app.js:27:3
+    at Layer.handle [as handle_request] (/var/www/html/basicAuth/server/node_modules/express/lib/router/layer.js:95:5)
+Listening on port 4500
+Listening on port 4500
+Listening on port 4500
+Listening on port 4500
+Listening on port 4500
+Listening on port 4500
+[0mGET /dfg [33m404 [0m7.106 ms - 5[0m
+Listening on port 4500
+[0mGET /dfg [33m404 [0m7.653 ms - 23[0m
+Listening on port 4500
+{ NotFoundError: Not Found
+    at /var/www/html/basicAuth/server/app.js:26:8
+    at Layer.handle [as handle_request] (/var/www/html/basicAuth/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:317:13)
+    at /var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:275:10)
+    at /var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:635:15
+    at next (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:47:12) message: 'Not Found' }
+[0mGET /dfg [33m404 [0m8.151 ms - 23[0m
+{ Error: Failed to lookup view "index" in views directory "/var/www/html/basicAuth/server/views"
+    at Function.render (/var/www/html/basicAuth/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/var/www/html/basicAuth/server/node_modules/express/lib/response.js:1008:7)
+    at /var/www/html/basicAuth/server/routes/index.js:6:7
+    at Layer.handle [as handle_request] (/var/www/html/basicAuth/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/html/basicAuth/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/html/basicAuth/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/html/basicAuth/server/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:275:10)
+  view: 
+   View {
+     defaultEngine: 'jade',
+     ext: '.jade',
+     name: 'index',
+     root: '/var/www/html/basicAuth/server/views',
+     engine: [Function],
+     path: undefined } }
+[0mGET / [31m500 [0m264.202 ms - 108[0m
+Listening on port 4500
+undefined
+[0mGET / [31m500 [0m228.687 ms - 108[0m
+Listening on port 4500
+[0mGET / [31m500 [0m237.240 ms - 62[0m
+Listening on port 4500
+[0mGET / [31m500 [0m243.066 ms - 74[0m
+Listening on port 4500
+Listening on port 4500
+Listening on port 4500
+Listening on port 4500
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected
+[0mGET / [32m200 [0m4.916 ms - 38[0m
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected
+[]
+[0mGET / [36m304 [0m24.144 ms - -[0m
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected
+{ fullName: '',
+  dob: '',
+  address: '',
+  gender: '',
+  _id: 5d01e53488dcec2fb05195e3,
+  usernmae: 'deepak',
+  email: 'deepak@osiztech.com',
+  password: 'Crusader@123',
+  created_at: 2019-06-13T05:55:00.415Z,
+  updated_at: 2019-06-13T05:55:00.416Z,
+  __v: 0 }
+[0mGET / [36m304 [0m480.401 ms - -[0m
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected
+Listening on port 4500
+Database connected

@@ -1,0 +1,11 @@
+Error: Failed to lookup view "error" in views directory "/var/www/html/basicAuth/server/views"
+    at Function.render (/var/www/html/basicAuth/server/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/var/www/html/basicAuth/server/node_modules/express/lib/response.js:1008:7)
+    at /var/www/html/basicAuth/server/app.js:38:7
+    at Layer.handle_error (/var/www/html/basicAuth/server/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:315:13)
+    at /var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/var/www/html/basicAuth/server/node_modules/express/lib/router/index.js:275:10)
+    at /var/www/html/basicAuth/server/app.js:27:3
+    at Layer.handle [as handle_request] (/var/www/html/basicAuth/server/node_modules/express/lib/router/layer.js:95:5)
